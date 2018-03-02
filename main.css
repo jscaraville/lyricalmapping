@@ -325,9 +325,25 @@ transform: scale(2,2);
 margin-left: 100px;
 }
 
+.Kiley {
+  display: block;
+  background-image: url(kiley.png);
+  background-repeat:no-repeat;
+  background-position: center;
+  width:100%;
+  padding: 100px 0px;
+}
 
+.Kiley h3 {
+  opacity: 0;
+  font-size: 12pt;
+  font-family: "Snell Roundhand", cursive;
 
+}
 
+.Kiley:hover h3 {
+opacity: 1;
+}
 
 
 
